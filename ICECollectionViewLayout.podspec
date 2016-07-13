@@ -12,7 +12,7 @@ s.author           = { 'gumengxiao' => 'rare_ice@163.com' }
 s.source           = { :git => 'https://github.com/My-Pod/ICECollectionViewLayout.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '7.0'
-s.source_files = '*.h'
+s.source_files = 'Classes/*.h'
 
 #标签布局
     s.subspec 'LabelLayout' do |ss|
