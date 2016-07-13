@@ -64,6 +64,7 @@
 		1757D9DF1D3651A000E1BFFB /* ICELableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICELableLayout.m; sourceTree = "<group>"; };
 		1757D9E11D3651A500E1BFFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1757D9E21D3651A500E1BFFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1757D9E51D36530E00E1BFFB /* 简介.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "简介.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 			children = (
 				1757D9E11D3651A500E1BFFB /* LICENSE */,
 				1757D9E21D3651A500E1BFFB /* README.md */,
+				1757D9E51D36530E00E1BFFB /* 简介.h */,
 				1757D9DD1D3651A000E1BFFB /* LableLayout */,
 				1757D9991D349E8B00E1BFFB /* Example */,
 				1757D9B31D349E8B00E1BFFB /* ExampleTests */,
