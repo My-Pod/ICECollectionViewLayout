@@ -15,7 +15,7 @@ s.ios.deployment_target = '7.0'
 s.source_files = 'Classes/*.{h,m}'
 
 #标签布局
-    s.subspec 'LabelLayout' do |ss|
-    	ss.source_files = 'LabelLayout/*.{h,m}'
+    s.subspec 'LableLayout' do |ss|
+    	ss.source_files = 'Classes/LableLayout/*.{h,m}'
     end
 end

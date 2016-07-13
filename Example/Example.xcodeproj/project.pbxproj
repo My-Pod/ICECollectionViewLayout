@@ -17,9 +17,9 @@
 		1757D9C01D349E8B00E1BFFB /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9BF1D349E8B00E1BFFB /* ExampleUITests.m */; };
 		1757D9D61D34C3FB00E1BFFB /* ICEWaterfallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9D51D34C3FB00E1BFFB /* ICEWaterfallVC.m */; };
 		1757D9D91D34C50700E1BFFB /* ICECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9D81D34C50700E1BFFB /* ICECollectionViewCell.m */; };
-		1757D9E01D3651A000E1BFFB /* ICELableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9DF1D3651A000E1BFFB /* ICELableLayout.m */; };
 		1757D9E31D3651A500E1BFFB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1757D9E11D3651A500E1BFFB /* LICENSE */; };
 		1757D9E41D3651A500E1BFFB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9E21D3651A500E1BFFB /* README.md */; };
+		1757D9EB1D3657D400E1BFFB /* ICELableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757D9EA1D3657D400E1BFFB /* ICELableLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +60,10 @@
 		1757D9D51D34C3FB00E1BFFB /* ICEWaterfallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEWaterfallVC.m; sourceTree = "<group>"; };
 		1757D9D71D34C50700E1BFFB /* ICECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICECollectionViewCell.h; sourceTree = "<group>"; };
 		1757D9D81D34C50700E1BFFB /* ICECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICECollectionViewCell.m; sourceTree = "<group>"; };
-		1757D9DE1D3651A000E1BFFB /* ICELableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICELableLayout.h; sourceTree = "<group>"; };
-		1757D9DF1D3651A000E1BFFB /* ICELableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICELableLayout.m; sourceTree = "<group>"; };
 		1757D9E11D3651A500E1BFFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1757D9E21D3651A500E1BFFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1757D9E51D36530E00E1BFFB /* 简介.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "简介.h"; sourceTree = "<group>"; };
+		1757D9E91D3657D400E1BFFB /* ICELableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICELableLayout.h; sourceTree = "<group>"; };
+		1757D9EA1D3657D400E1BFFB /* ICELableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICELableLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +96,7 @@
 			children = (
 				1757D9E11D3651A500E1BFFB /* LICENSE */,
 				1757D9E21D3651A500E1BFFB /* README.md */,
-				1757D9E51D36530E00E1BFFB /* 简介.h */,
-				1757D9DD1D3651A000E1BFFB /* LableLayout */,
+				1757D9E81D3657D400E1BFFB /* LableLayout */,
 				1757D9991D349E8B00E1BFFB /* Example */,
 				1757D9B31D349E8B00E1BFFB /* ExampleTests */,
 				1757D9BE1D349E8B00E1BFFB /* ExampleUITests */,
@@ -162,14 +160,14 @@
 			path = ExampleUITests;
 			sourceTree = "<group>";
 		};
-		1757D9DD1D3651A000E1BFFB /* LableLayout */ = {
+		1757D9E81D3657D400E1BFFB /* LableLayout */ = {
 			isa = PBXGroup;
 			children = (
-				1757D9DE1D3651A000E1BFFB /* ICELableLayout.h */,
-				1757D9DF1D3651A000E1BFFB /* ICELableLayout.m */,
+				1757D9E91D3657D400E1BFFB /* ICELableLayout.h */,
+				1757D9EA1D3657D400E1BFFB /* ICELableLayout.m */,
 			);
 			name = LableLayout;
-			path = ../LableLayout;
+			path = ../Classes/LableLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,8 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1757D9E01D3651A000E1BFFB /* ICELableLayout.m in Sources */,
 				1757D9A21D349E8B00E1BFFB /* ViewController.m in Sources */,
+				1757D9EB1D3657D400E1BFFB /* ICELableLayout.m in Sources */,
 				1757D99F1D349E8B00E1BFFB /* AppDelegate.m in Sources */,
 				1757D9E41D3651A500E1BFFB /* README.md in Sources */,
 				1757D99C1D349E8B00E1BFFB /* main.m in Sources */,
