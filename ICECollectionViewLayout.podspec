@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ICECollectionViewLayout'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = '自定义 colelctionview 布局'
 s.description      = <<-DESC
 TODO: 自定义 collectionView layout 的集合

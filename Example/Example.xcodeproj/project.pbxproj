@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174626EA1D3F4BCA003E9ACA /* ICECollectionViewLayout.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ICECollectionViewLayout.podspec; path = ../ICECollectionViewLayout.podspec; sourceTree = "<group>"; };
 		1757D9971D349E8B00E1BFFB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1757D99B1D349E8B00E1BFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1757D99D1D349E8B00E1BFFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		1757D98E1D349E8B00E1BFFB = {
 			isa = PBXGroup;
 			children = (
+				174626EA1D3F4BCA003E9ACA /* ICECollectionViewLayout.podspec */,
 				1757D9E11D3651A500E1BFFB /* LICENSE */,
 				1757D9E21D3651A500E1BFFB /* README.md */,
 				1757D9E81D3657D400E1BFFB /* LableLayout */,
@@ -533,6 +535,7 @@
 				1757D9C61D349E8C00E1BFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1757D9C71D349E8C00E1BFFB /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +544,7 @@
 				1757D9C91D349E8C00E1BFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1757D9CA1D349E8C00E1BFFB /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +553,7 @@
 				1757D9CC1D349E8C00E1BFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

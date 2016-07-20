@@ -25,9 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (CGFloat)g_Labellayout:(ICELableLayout *)layout widthForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @optional
-//区头    区尾
-- (CGSize)g_labelLayout:(ICELableLayout *)layout sizeForSupmentView:(NSString *)ElementKind atIndexPath:(NSIndexPath *)indexPath;
 
+//区头    区尾 大小
+- (CGSize)g_labelLayout:(ICELableLayout *)layout sizeForSupmentView:(NSString *)ElementKind atIndexPath:(NSIndexPath *)indexPath;
+/**
+ *  计算出总高度后回调
+ */
+- (void)g_lableLayout:(ICELableLayout *)layout contentHeight:(CGFloat)contentHeight;
 
 @end
 

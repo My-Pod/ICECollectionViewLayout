@@ -13,6 +13,7 @@
     //协议有效性
     struct DeleateVisable{
         BOOL sizeForSuppmentView;
+        BOOL contentHeight;
     }   _deleagetVisable;
     
     CGFloat contet_W;
@@ -68,6 +69,10 @@
     if ([self.delegate respondsToSelector:@selector(g_labelLayout:sizeForSupmentView:atIndexPath:)]) {
         _deleagetVisable.sizeForSuppmentView = YES;
     }
+    
+    if ([self.delegate respondsToSelector:@selector(g_lableLayout:contentHeight:)]) {
+        
+    }
 }
 
 
@@ -103,6 +108,10 @@
     }
     
     _content_h = y;
+    
+    if (_deleagetVisable.contentHeight) {
+        [self.delegate g_lableLayout:self contentHeight:_content_h];
+    }
 }
 
 
